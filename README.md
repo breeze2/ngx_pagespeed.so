@@ -21,7 +21,7 @@ $ cd tmp
 
 ### Copy to 
 
-If your operating system is Ubuntu16.04, and you install nginx with `sudo apt-get install nginx` directly (maybe you should run `sudo apt-get update && apt-get upgrade nginx` first), run
+If your operating system is Ubuntu16.04, and you install nginx with `sudo apt-get install nginx` directly, (maybe you should run `sudo apt-get update && apt-get upgrade nginx` first), run
 
 ```cmd
 $ sudo mkdir /usr/share/nginx/modules
@@ -29,7 +29,7 @@ $ cp ./ubuntu_x86_64/nginx-xenial-1.10.3/ngx_pagespeed.so /usr/share/nginx/modul
 ```
 
 
-If you install nginx with `sudo add-apt-repository ppa:nginx/stable && apt-get update && apt-get install nginx` (maybe you should run `sudo apt-get update && apt-get upgrade nginx` first), run
+If you install nginx with `sudo add-apt-repository ppa:nginx/stable && apt-get update && apt-get install nginx`, (maybe you should run `sudo apt-get update && apt-get upgrade nginx` first), run
 
 ```cmd
 $ sudo mkdir /usr/share/nginx/modules
